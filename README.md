@@ -2,7 +2,7 @@
 A way to reverse proxy traffic to the OpenAI API through a custom domain to bypass outbound restrictions to chatgpt api services. 
 
 # Setup 
-Setup a domain, or subdomain on a public facing machine utilize certbot --nginx -d domain.com  to have it configure nginx for you. 
+Setup a domain, or subdomain on a public facing machine.  Install Nginx and Certbot. Utilize certbot --nginx -d domain.com to have it configure nginx for you. 
 Once you have TLS termination add the following to your NGINX config to reverse proxy traffic to OpenAPI.
 
         location / {
