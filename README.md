@@ -24,7 +24,12 @@ Next test it out.  Instead of making API calls to:  https://api.openai.com/v1/co
 
 This has worked to bypass outbound web filters and other network restrictions to the API.  This would work for pretty much any REST api or simple website. 
 
-
+#
+Showing code with new custom URL that will reverse proxy our traffic between our client and OpenAI's API. 
 ![](Testing1.png)
+#
+Testing the new url and getting our response:
 ![](Testing2.png)
+#
+Showing a PCAP that only shows the DNS request go out, and the TLS session between our end point and client, and not openapi's. 
 ![](Testing3.png)
