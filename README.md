@@ -23,3 +23,8 @@ Once you have TLS termination add the following to your NGINX config to reverse 
 Next test it out.  Instead of making API calls to:  https://api.openai.com/v1/completions for example, you would start making calls to https://yourdomain.com/v1/completions instead. 
 
 This has worked to bypass outbound web filters and other network restrictions to the API.  This would work for pretty much any REST api or simple website. 
+
+
+![](Testing1.png)
+![](Testing2.png)
+![](Testing3.png)
